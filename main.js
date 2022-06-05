@@ -4,6 +4,6 @@ setInterval(function () {
       .then((res) => {
         console.log(res);
         document.getElementById("gass").innerHTML = res.KadarGass;
-        //document.getElementById("indikator").innerHTML = res.Indikator;
+        document.getElementById("indikator").innerHTML = res.Indikator;
       });
   }, 1000);

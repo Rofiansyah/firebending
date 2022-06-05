@@ -225,7 +225,7 @@ img{
     color: var(--first-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .nav__menu{
         position: fixed;
         bottom: -100%;
@@ -241,6 +241,19 @@ img{
     .home__scroll{
         display: none;
     }
+
+    .nav__logo,
+    .nav__toggle{
+        color: var(--title-color);
+        font-weight: var(--font-bold);
+        font-size: 1rem;
+        font-family: Hey Comic;
+}
+
+        .nav__logo:hover{
+        color: var(--first-color);
+}
+
 }
 
 .nav__list{
@@ -425,6 +438,10 @@ img{
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+}
+
+.size_gass{
+    font-size: 3rem;
 }
 
 .about__description{
@@ -725,6 +742,10 @@ button{
         padding: 2rem .25rem 4rem;
     }
 
+    .about__img{
+        width: 250px;
+    }
+
     .nav__list{
         column-gap: 0;
     }
@@ -767,6 +788,10 @@ button{
 
     .home__scroll{
         display: none;
+    }
+
+    .about__img{
+        width: 300px;
     }
 
     .about__container,
@@ -868,7 +893,7 @@ button{
     }
 
     .about__img{
-        width: 600px;
+        width: 350px;
     }
 
     .about__description{
